@@ -37,8 +37,9 @@ Replace wss://your.ethereum.websocket.provider with the URL of your Ethereum Web
 ## Usage
 
 To run the script, use the following command:
-    ```bash
-    node sent_usdt.js
+   ```bash
+    node send_usdt.js
+   ```
   
 The script will start listening for events from your smart contract and perform token transfers based on predefined conditions.
 
