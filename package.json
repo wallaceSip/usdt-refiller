@@ -1,0 +1,32 @@
+{
+  "name": "usdt_refiller",
+  "version": "1.0.0",
+  "description": "script to refill contract with usdt for auto swaps",
+  "main": "send_usdt.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallaceSip/usdt-refiller.git"
+  },
+  "keywords": [
+    "script",
+    "node",
+    "usdt",
+    "blockchain"
+  ],
+  "author": "Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallaceSip/usdt-refiller/issues"
+  },
+  "homepage": "https://github.com/wallaceSip/usdt-refiller#readme",
+  "dependencies": {
+    "abi-decoder": "^2.4.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
